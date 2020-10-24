@@ -1,0 +1,16 @@
+server:
+  port: 10001
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 192.168.181.128
+    port: 6379
+
+
+mybatis:
+  type-aliases-package: com.atguigu.pojo
